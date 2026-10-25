@@ -1,0 +1,42 @@
+{
+  "model": "subset_m1_1",
+  "method": "uniform_1pct",
+  "seed": 1,
+  "n_users": 59,
+  "n_added": 0,
+  "features": [
+    "user_tx_cnt",
+    "user_avg_active_day_gap",
+    "user_avg_tx",
+    "item_tx_cnt",
+    "item_avg_active_day_gap",
+    "item_repeat_purchase_rate",
+    "item_avg_tx",
+    "cat_tx_cnt",
+    "cat_avg_active_day_gap",
+    "cat_repeat_purchase_rate",
+    "cat_avg_tx",
+    "vi_tx_cnt",
+    "vc_tx_cnt",
+    "ii_co_purchase"
+  ],
+  "windows": {
+    "user_tx_cnt": 363,
+    "user_avg_active_day_gap": 403,
+    "user_avg_tx": 443,
+    "item_tx_cnt": 363,
+    "item_avg_active_day_gap": 363,
+    "item_repeat_purchase_rate": 358,
+    "item_avg_tx": 283,
+    "cat_tx_cnt": 363,
+    "cat_avg_active_day_gap": 363,
+    "cat_repeat_purchase_rate": 363,
+    "cat_avg_tx": 363,
+    "vi_tx_cnt": 363,
+    "vc_tx_cnt": 353,
+    "ii_co_purchase": 323
+  },
+  "roc": 0.921784,
+  "pr": 0.785611,
+  "horizon": 7
+}

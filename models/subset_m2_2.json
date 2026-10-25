@@ -1,0 +1,18 @@
+{
+  "model": "subset_m2_2",
+  "method": "typical_top10_uniform",
+  "seed": 2,
+  "n_users": 42,
+  "n_added": 0,
+  "features": [
+    "vi_tx_cnt",
+    "vc_tx_cnt"
+  ],
+  "windows": {
+    "vi_tx_cnt": 363,
+    "vc_tx_cnt": 443
+  },
+  "roc": 0.812342,
+  "pr": 0.598946,
+  "horizon": 7
+}

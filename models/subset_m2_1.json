@@ -1,0 +1,32 @@
+{
+  "model": "subset_m2_1",
+  "method": "typical_top10_uniform",
+  "seed": 1,
+  "n_users": 71,
+  "n_added": 29,
+  "features": [
+    "item_tx_cnt",
+    "item_avg_active_day_gap",
+    "item_repeat_purchase_rate",
+    "item_avg_tx",
+    "cat_tx_cnt",
+    "cat_avg_active_day_gap",
+    "cat_repeat_purchase_rate",
+    "cat_avg_tx",
+    "vi_tx_cnt"
+  ],
+  "windows": {
+    "item_tx_cnt": 363,
+    "item_avg_active_day_gap": 363,
+    "item_repeat_purchase_rate": 363,
+    "item_avg_tx": 283,
+    "cat_tx_cnt": 363,
+    "cat_avg_active_day_gap": 443,
+    "cat_repeat_purchase_rate": 363,
+    "cat_avg_tx": 363,
+    "vi_tx_cnt": 363
+  },
+  "roc": 0.809396,
+  "pr": 0.566561,
+  "horizon": 7
+}
